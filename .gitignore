@@ -1,0 +1,24 @@
+#############################
+# TYPO3 CMS Base Distribution
+#############################
+
+.DS_Store
+
+.idea
+
+bin
+vendor
+index.php
+
+nbproject
+vendor
+
+typo3
+
+typo3_src
+
+web/typo3conf/
+web/typo3temp/
+web/index.php
+
+web/typo3
