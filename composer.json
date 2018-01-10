@@ -23,6 +23,9 @@
 		"typo3/cms-tstemplate":"^8.7",
 		"typo3/cms-t3editor":"^8.7",
 		"typo3/cms-beuser":"^8.7",
-		"friendsoftypo3/extension-builder":"^8.7"
+		"friendsoftypo3/extension-builder":"^8.7",
+		"codeception/codeception": "^2.3",
+		"phpunit/phpunit": "^6.4",
+		"typo3/testing-framework": "^2.0"
 	}
 }
