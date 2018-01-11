@@ -655,12 +655,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/EnvAuto/car-list-extension.git",
-                "reference": "cd531d783947f9d0f34a29febbe12e472fc5bba4"
+                "reference": "df6d6b9c75cb722d89d0339ce1653df382cfe82d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EnvAuto/car-list-extension/zipball/cd531d783947f9d0f34a29febbe12e472fc5bba4",
-                "reference": "cd531d783947f9d0f34a29febbe12e472fc5bba4",
+                "url": "https://api.github.com/repos/EnvAuto/car-list-extension/zipball/df6d6b9c75cb722d89d0339ce1653df382cfe82d",
+                "reference": "df6d6b9c75cb722d89d0339ce1653df382cfe82d",
                 "shasum": ""
             },
             "require": {
@@ -677,7 +677,7 @@
                 "source": "https://github.com/EnvAuto/car-list-extension/tree/master",
                 "issues": "https://github.com/EnvAuto/car-list-extension/issues"
             },
-            "time": "2018-01-09T11:40:09+00:00"
+            "time": "2018-01-10T22:58:07+00:00"
         },
         {
             "name": "envauto/envauto-bootstrap-site-package",
