@@ -1,0 +1,27 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="main">
+
+    <div class="table_data" >
+
+        <f:for each="{cars}" as="car">
+             <f:link.action action="show" arguments="{car : car}">
+
+                 <p>{car.manufacturer}</p>
+                 <p>{car.model}</p>
+                 <p>{car.year}</p>
+                 <p>{car.class}</p>
+                 <p>{car.fuelType}</p>
+                 <p>{car.savings}</p>
+                 <p>{car.cityMPG}</p>
+                 <p>{car.highwayMPG}</p>
+                 <p>{car.combinedMPG}</p>
+                 <p>{car.fuelCost}</p>
+
+            </f:link.action>
+        </f:for>
+    </div>
+
+</f:section>
+</html>

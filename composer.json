@@ -2,7 +2,8 @@
 	"repositories": [
 		{ "type": "composer", "url": "https://composer.typo3.org/" },
 		{ "type": "vcs", "url":"git@github.com:EnvAuto/site-package-bootstrap"},
-		{ "type": "vcs", "url":"git@github.com:EnvAuto/car-list-extension.git"}
+		{ "type": "vcs", "url":"git@github.com:EnvAuto/car-list-extension.git"},
+		{"type": "git", "url":"https://github.com/aariasmora/car_data.git"}
 	],
 	"name": "typo3/cms-base-distribution",
 	"description" : "TYPO3 CMS Base Distribution",
@@ -11,6 +12,7 @@
 		"typo3/cms": "^8.7",
 		"envauto/envauto-bootstrap-site-package":"dev-master",
 		"envauto/car-list":"dev-master",
+		"envauto/car-data":"dev-master",
 		"helhum/typo3-console": "^4.4"
 	},
 	"extra": {
